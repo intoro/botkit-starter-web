@@ -8,12 +8,13 @@ html, body {
   box-sizing: border-box; }
 
 #message_window {
-  background: #f0f0f0;
-  border: 2px solid #CCC;
+  background: #eee6ef;
+  border: 4px solid #b983fc;
+  border-radius: 10px;
   /*height: 500px;
   width: 320px;*/
   height: 80%;
-  width: 100%;
+  width: 90%;
   /*margin: 2rem auto;*/
   display: flex;
   flex-direction: column; }
@@ -40,7 +41,7 @@ html, body {
       margin: 0.25rem;
       clear: both; }
   #message_window footer {
-    border-top: 1px solid #CCC; }
+    border-top: 5px solid #eefd7e; }
     #message_window footer input[type="text"] {
       flex-grow: 1;
       font-size: 1.25rem; }
@@ -48,6 +49,7 @@ html, body {
       width: 50px;
       background: none;
       border: 0;
+      border-radius: 10px;
       cursor: pointer;
       color: blue;
       font-weight: bold; }
